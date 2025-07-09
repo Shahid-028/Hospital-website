@@ -1,0 +1,279 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   /* background-color: rgb(122, 0, 102);*/
+  /* background-image: linear-gradient(to right top, #5e0e4b, #70105e, #811373, #92178a, #a21ea2);*/
+  background-image: linear-gradient(to right top, #6e5abe, #6b5bc4, #685cca, #635ed1, #5e5fd7, #4c6fe5, #357ef1, #008dfb, #00a9ff, #00c0fc, #00d5ec, #2ee6da);
+    
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-inline: 22px;
+}
+.logo{
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    /*background-color:rgb(122, 0, 102);*/
+   /* background-image: linear-gradient(to right top, #bd6ade, #c966e3, #d562e8, #e25cec, #ef55ef);*/
+   background-image: linear-gradient(to right top, #786bd1, #7778d7, #7783dc, #798fe1, #7d9ae4, #74a7ed, #6db3f3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding: 33px;
+}
+.main img{
+    width: 710px;
+}
+.mainText{
+    margin-top: 44px;
+    color: white;
+}
+.mainText h1{
+    font-size: 66px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service .serviceCard{
+    width: 200px;
+    padding: 22px;
+    border: 2px solid black;
+    text-align: center;
+    margin-inline: 22px;
+    cursor: pointer;
+    margin-top: 22px;
+}
+.serviceCard:hover{
+    /*background-color:  #ADD8E6;*/
+    background-color: #AEC6CF;
+    /*background-image: linear-gradient(to right top, #6ade8b, #81e476, #9de85d, #bbea3f, #dceb12);*/
+   /* background-color: rgb(147, 73, 138);*/
+    /*background-image: linear-gradient(to right top, #786bd1, #7778d7, #7783dc, #798fe1, #7d9ae4, #74a7ed, #6db3f3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);*/
+}
+.doctors{
+    display: flex;
+    flex-wrap: wrap;
+    width: 830px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+   overflow: hidden;
+}
+
+.team{
+     
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    margin: auto;
+     position: absolute;
+     transition: all 1s ease;
+     
+}
+
+     
+    
+.team img{
+    width: 240px;
+    height: 250px;
+    margin-inline: 20px;
+}
+    
+    
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blogCard{
+    width: 300px;
+    padding: 18px;
+    /*background-color: rgb(92, 6, 66);*/
+    background-image: linear-gradient(to right top, #140e3f, #002c5e, #004977, #00668b, #00849b, #1c8e9c, #32989c, #46a19c, #559a96, #60928f, #698b89, #718382);
+    text-align: center;
+    color: white;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+.blogCard img{
+    width: 100%;
+    height: 250px;
+}
+.blogCard button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.form{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 22px;
+    background-color: #edecec;
+}
+.form input{
+    width: 90%;
+    font-size: 20px;
+    padding: 11px;
+    margin-top: 22px;
+}
+.form button{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: black;
+    color: white;
+}
+.footer p{
+    margin-top: 22px;
+}
+
+.detailCard{
+    width: 400px;
+    padding: 42px;
+   /* background-color: rgb(204, 139, 191);*/
+   background-image: linear-gradient(to right top, #140e3f, #002c5e, #004977, #00668b, #00849b, #1c8e9c, #32989c, #46a19c, #559a96, #60928f, #698b89, #718382);
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+}
+.detailCard i{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 22px;
+    background-color: black;
+    padding: 11px;
+    cursor: pointer;
+    color: white;
+}
+
+#bar{
+    display: none;
+    font-size: 27px;
+}
+
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:850px){
+    .doctors{
+        width: 90%;
+    }
+    .team img{
+        width: 200px;
+        margin-inline: 11px;
+    }
+}
+
+@media screen and (max-width:760px){
+    
+    .team img{
+        width: 150px;
+        margin-inline: 11px;
+    }
+    .main img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:550px){
+    
+    .team img{
+        width: 30%;
+        height: 120px;
+        margin-inline: 4px;
+    }
+    .form{
+        width: 76%;
+    }
+    .detailCard {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:920px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+}
+    
+
+@media screen and (max-width:620px){
+    .main h1{
+        font-size: 33px;
+    }
+}
